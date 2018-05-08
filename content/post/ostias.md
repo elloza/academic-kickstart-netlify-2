@@ -7,9 +7,8 @@ summary: 'ostias '
 description: Ositas
 tags:
   - academic
-params:
-  header:
-    caption: dddddddd
-    image: /img/uploads/sample-815141_640.jpg
+undefined:
+  caption: g
+  image: /img/uploads/sample-815141_640.jpg
 ---
 ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
