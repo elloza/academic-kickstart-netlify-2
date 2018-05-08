@@ -5,6 +5,9 @@ backend:
 media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/uploads" 
 
+
+publish_mode: editorial_workflow
+
 collections:
   - name: "blog"
     label: "Blog post"
@@ -19,14 +22,11 @@ collections:
       - { label: "Description", name: "description", widget: "markdown", required: false }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-      - {label: "Tags", name: "tags", widget: "list", default: ["academic"]}
-      - name: "params"
-        label: "Params"
+      - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
+    
+    - name: "header"
+        label: "header"
         widget: "object"
         fields:
-          - name: "header"
-            label: "header"
-            widget: "object"
-            fields:
-              - { label: "Featured Image", name: "image", widget: "image", required: false }
-              - { label: "Caption", name: "caption" }
+          - { label: "Featured Image", name: "image", widget: "image", required: false }
+          - { label: "Caption", name: "caption" }
