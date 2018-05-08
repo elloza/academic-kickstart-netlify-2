@@ -19,19 +19,14 @@ collections:
       - { label: "Description", name: "description", widget: "markdown", required: false }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-
-  - label: "Tags"
-    name: "tags"
-    widget: "list"
-    default: ["academic"]
-
-  - name: "params"
-    label: "Params"
-    widget: "object"
-    fields:
-      - name: "header"
-        label: "header"
+      - {label: "Tags", name: "tags", widget: "list", default: ["academic"]}
+      - name: "params"
+        label: "Params"
         widget: "object"
         fields:
-          - { label: "Featured Image", name: "image", widget: "image", required: false }
-          - { label: "Caption", name: "caption" }
+          - name: "header"
+            label: "header"
+            widget: "object"
+            fields:
+              - { label: "Featured Image", name: "image", widget: "image", required: false }
+              - { label: "Caption", name: "caption" }
