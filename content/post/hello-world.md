@@ -2,7 +2,7 @@
 title: Hello world
 date: '2018-05-10T13:48:00+02:00'
 lastmod: '2018-05-09T13:48:00+02:00'
-draft: true
+draft: false
 tags:
   - academic
   - android
