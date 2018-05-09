@@ -7,6 +7,7 @@ interests:
   interests:
     - Machine Learning
     - Comuter Science
+    - aaaaa
 education:
   courses:
     - course: ML for dummies
