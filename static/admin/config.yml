@@ -79,13 +79,63 @@ collections:
           - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "publications"}
           - {label: "Active", name: "active", widget: "boolean", default: true }
           - {label: "Date", name: "date", widget: "datetime" }
-          - {label: "Title", name: "title", widget: "string", default: "Projects"}
+          - {label: "Title", name: "title", widget: "string", default: "Publications"}
           - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
           - {label: "Weight", name: weight,  default: 20}
           - {label: "Number of post to show", name: count,  default: 5}
           - {label: "List Format", name: "list_format", widget: "select", options: ["0", "1","3"] }
           - {label: "Publication type", name: publication_type,  default: -1}
           - {label: "Filter previous publication type", name: exclude_selected , widget: "boolean", default: true }
+      
+      - file: "content/home/publications_selected.md"
+        label: "Publications Selected"
+        name: "publications_selected"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "publications_selected"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Publication Selected"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 10}
+          - {label: "List Format", name: "list_format", widget: "select", options: ["0", "1","3"] }
+          - {label: "Publication type", name: publication_type,  default: -1}
+
+      - file: "content/home/tags.md"
+        label: "Tags"
+        name: "tags"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "tag_cloud"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Tags"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 60}
+          - {label: "Number of talks to show", name: count,  default: 2}
+
+      - file: "content/home/talks.md"
+        label: "Talks"
+        name: "talks"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "tag_cloud"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Talks"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 30}
+          - {label: "List format 0 simple | 1 simple", name: list_format,  default: 0}
+
+      - file: "content/home/teaching.md"
+        label: "Teaching"
+        name: "teaching"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "custom"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Teaching"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 30}
+          - {label: "Body", name: "body", widget: "markdown", required: false }
+
 
   # POSTS
 
