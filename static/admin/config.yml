@@ -50,7 +50,7 @@ collections:
       - { label: "Publication Name short", name: "publication_short" }
       - { label: "Abstract", name: "abstract" }
       - { label: "Abstract short", name: "abstract_short" }
-      - { label: "Image preview", name: "image_preview", widget: string}]}
+      - { label: "Image preview", name: "image_preview", widget: "image", required: false }
       - { label: "Selected publication?", name: "selected", widget: "boolean", default: true }
       - { label: "Url pdf", name: "url_pdf"}
       - { label: "Url preprint", name: "url_preprint"}
