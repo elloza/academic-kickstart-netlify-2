@@ -5,11 +5,11 @@ weight: '5'
 interests:
   interests:
     - Artificial Intelligence
-    - ''
+    - coui
 education:
   - courses:
-      - avatar: Curso
-        course: Curso
-        year: '2002'
+      - course: eeee
+        institution: eeee
+        year: '122'
 ---
 wfewfewef
