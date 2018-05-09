@@ -87,21 +87,21 @@ collections:
     create: true
     fields:
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Title", name: "title" }
+      - { label: "Title", name: "title" ,widget: string}
       - { label: "Time start", name: "time_start", widget: "datetime" }
       - { label: "Time end", name: "time_end", widget: "datetime" }
-      - { label: "Abstract", name: "abstract"}
-      - { label: "Abstract short", name: "abstract_short"}
-      - { label: "Event", name: "event"}
-      - { label: "Event URL", name: "event url"}
-      - { label: "Location (City, Country)", name: "location"}
+      - { label: "Abstract", name: "abstract",widget: string}
+      - { label: "Abstract short", name: "abstract_short",widget: string}
+      - { label: "Event", name: "event",widget: string}
+      - { label: "Event URL", name: "event url",widget: string}
+      - { label: "Location (City, Country)", name: "location",widget: string}
       - { label: "Selected talk?", name: "selected", widget: "boolean", default: false }
       - { label: "Projects (Simply enter the filename (excluding '.md') of your project file in `content/project/`)", name: "projects", widget: "list", required: false}
       - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: false }
-      - { label: "PDF URL", name: "url_pdf"}
-      - { label: "Slides URL", name: "url_slides"}
-      - { label: "Video URL", name: "url_video"}
-      - { label: "Source code URL", name: "url_code"}
+      - { label: "PDF URL", name: "url_pdf",widget: string}
+      - { label: "Slides URL", name: "url_slides",widget: string}
+      - { label: "Video URL", name: "url_video",widget: string}
+      - { label: "Source code URL", name: "url_code",widget: string}
       - { label: "USE Source code highlighting?", name: "math", widget: "boolean", default: true } 
       - { label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
