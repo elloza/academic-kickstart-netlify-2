@@ -9,19 +9,13 @@ tags:
 summary: A new post
 header:
   caption: Unas burbujitas
-  image: /img/bubbles.jpg
+  image: /img/bubbles-wide.jpg
 ---
-# Headin
-
-
+# Heading
 
 Ostias
 
-
-
 > Ole tu
-
-
 
 ```
 Vamos fideos
