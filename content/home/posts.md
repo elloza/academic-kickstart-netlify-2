@@ -7,9 +7,9 @@ subtitle: Posts
 weight: '60'
 count: '5'
 tags_include:
-  - academic
+  - ''
 tags_exclude:
-  - academic
+  - ''
 list_format: '0'
 ---
 
