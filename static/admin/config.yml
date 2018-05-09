@@ -25,4 +25,4 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
       - {label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
-              {label: "Caption", name: "caption", widget: string}}
+              {label: "Caption", name: "caption", widget: string}]}
