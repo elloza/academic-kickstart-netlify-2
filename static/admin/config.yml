@@ -24,10 +24,10 @@ collections:
               {label: "Interests list", name: "interests", widget: "list", 
               default: ["Artificial Intelligence"]}]}
           - {label: "Education", name: "education", widget: "list", fields: [
-              {label: "courses", name: "courses", widget: "list",fields:[
+              {label: "courses", name: "courses", widget: "list", fields: [
                 {label: Course, name: course , widget: string},
                 {label: Institution, name: institution, widget: string},
-                {label: Year, name: year, widget: number,default: 2010}]}]}
+                {label: Year, name: year, widget: number, default: 2010}]}]}
           - { label: "Body", name: "body", widget: "markdown", required: false }
 
   # POSTS
