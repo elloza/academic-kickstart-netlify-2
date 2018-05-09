@@ -5,11 +5,11 @@ lastmod: '2018-05-09T00:14:57+02:00'
 draft: false
 summary: 'ostias '
 description: Ositas
-image: /img/uploads/sample-815141_640.jpg
+image: /img/boards.jpg
 tags:
   - academic
 header:
   caption: Holaaaaaa
-  image: /img/bubbles.jpg
+  image: /img/portrait.jpg
 ---
 ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
