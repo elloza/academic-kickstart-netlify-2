@@ -10,12 +10,3 @@ header:
   caption: Unas burbujitas
   image: /img/bubbles.jpg
 ---
-**Hola me llamo paco**
-
-> **print("hiahaiahia")**
-
-
-
-```
-Hay la virgen maría
-```
