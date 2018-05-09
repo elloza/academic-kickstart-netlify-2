@@ -30,6 +30,65 @@ collections:
                 {label: Year, name: year, default: 2010}]}]}
           - { label: "Body", name: "body", widget: "markdown", required: false }
 
+      - file: "content/home/contact.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "contact"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Contact"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 70}
+          - {label: "Automatically link email and phone", name: "autolink", widget: "boolean", default: true }
+
+      - file: "content/home/posts.md"
+        label: "Posts"
+        name: "posts"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "posts"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Recent Posts"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 40}
+          - {label: "Number of post to show", name: count,  default: 5}
+          - {label: "Tags include", name: "tags_include", widget: "list", default: []}
+          - {label: "Tags exclude", name: "tags_exclude", widget: "list", default: []}
+          - {label: "List Format", name: "list_format", widget: "select", options: ["0", "1"] }
+
+      - file: "content/home/projects.md"
+        label: "Projects"
+        name: "projects"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "projects"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Projects"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Folder of the content", name: "folder", widget: "string", default: "project"}
+          - {label: "View Legend | List 0 | Cards 1", name: "view", default: 1}
+          - {label: "Weight", name: weight,  default: 50}
+          - {label: "Filter default (number of one of the below)", name: filter_default,  default: 0}
+          - {label: "Filters", name: "filter", widget: "list", fields: [
+                {label: Name, name: name , widget: string},
+                {label: Tag, name: tag, widget: string}]}
+
+      - file: "content/home/publications.md"
+        label: "Publications"
+        name: "publications"
+        fields:
+          - {label: "Widget (Don't modify)", name: "widget", widget: "string", default: "publications"}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: "Title", name: "title", widget: "string", default: "Projects"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
+          - {label: "Weight", name: weight,  default: 20}
+          - {label: "Number of post to show", name: count,  default: 5}
+          - {label: "List Format", name: "list_format", widget: "select", options: ["0", "1","3"] }
+          - {label: "Publication type", name: publication_type,  default: -1}
+          - {label: "Filter previous publication type", name: exclude_selected , widget: "boolean", default: true }
+
   # POSTS
 
   - name: "blog"
