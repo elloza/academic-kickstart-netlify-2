@@ -72,7 +72,7 @@ collections:
       - { label: "Summary", name: "summary"}
       - { label: "Image preview", name: "image_preview", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
-      - { label: "External link, Optional external URL for project (replaces project detail page)", name: "external_link"}
+      - { label: "External link, Optional external URL for project (replaces project detail page)", name: "external_link", required: false}
       - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: false }
       - { label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
