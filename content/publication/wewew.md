@@ -10,10 +10,10 @@ header:
   image: /img/bubbles-wide.jpg
 publication: The very best
 publication_short: The best
-abstract: This is de abstract
-abstract_short: The abstract short
+abstract: This is the long abstract
+abstract_short: This is the short abstract
 image_preview: /img/sample-815141_640.jpg
-selected: true
+selected: false
 url_pdf: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_preprint: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_dataset: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
@@ -26,4 +26,8 @@ math: true
 ---
 $\alpha + 12 = ostias$
 
-\* Markdown
+```python
+# Example of code highlighting
+input_string_var = input("Enter some data: ")
+print("You entered: {}".format(input_string_var))
+```
