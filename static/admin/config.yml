@@ -23,7 +23,7 @@ collections:
           - {label: "Interests", name: interests, widget: object, fields: [
               {label: "Interests list", name: "interests", widget: "list", 
               default: ["Artificial Intelligence"]}]}
-          - {label: "Education", name: "education", widget: "object", fields: [
+          - {label: "Education", name: "education", widget: "list", fields: [
               {label: "courses", name: "courses", widget: "list",fields:[
                 {label: Course, name: course , widget: string},
                 {label: Institution, name: avatar, widget: string},
