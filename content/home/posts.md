@@ -6,10 +6,8 @@ title: Posts
 subtitle: Posts
 weight: '60'
 count: '5'
-tags_include:
-  - null
-tags_exclude:
-  - null
+tags_include:[]
+tags_exclude:[]
 list_format: '1'
 ---
 
