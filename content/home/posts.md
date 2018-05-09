@@ -10,6 +10,6 @@ tags_include:
   - ''
 tags_exclude:
   - ''
-list_format: '0'
+list_format: '1'
 ---
 
