@@ -6,6 +6,9 @@ media_folder: "static/img/" # Media files will be stored in the repo under stati
 public_folder: "/img"
 
 collections:
+
+  # POSTS
+
   - name: "blog"
     label: "Blog post"
     folder: "content/post/"
@@ -17,8 +20,46 @@ collections:
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
       - { label: "Summary", name: "summary" }
-      - {label: "Header", name: header, widget: object, fields: [
+      - { label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
               {label: "Caption", name: "caption", widget: string}]}
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  # PUBLICATIONS
+
+  - name: "publication"
+    label: "Publications"
+    folder: "content/publication/"
+    create: true
+    fields:
+      - { label: "Title", name: "title" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Authors", name: "authors", widget: "list"}
+      - { label: "Publication type" ,name: "publication_types", widget: "select", options: [
+             { label: "Uncategorized", value: "0" },
+             { label: "Conference proceedings", value: "1" },
+             { label: "Journal", value: "2" },
+             { label: "Work in progress", value: "3" },
+             { label: "Technical report", value: "4" },
+             { label: "Book", value: "5" },
+             { label: "Book chapter", value: "6" }]} # This might not work
+      - {label: "Header", name: header, widget: object, fields: [
+              {label: "Featured Image", name: "image", widget: "image", required: false},
+      - { label: "Publication Name", name: "publication" }
+      - { label: "Publication Name short", name: "publication_short" }
+      - { label: "Abstract", name: "abstract" }
+      - { label: "Abstract short", name: "abstract_short" }
+      - { label: "Image preview", name: "image_preview", widget: string}]}
+      - { label: "Selected publication?", name: "selected", widget: "boolean", default: true }
+      - { label: "Url pdf", name: "url_pdf"}
+      - { label: "Url preprint", name: "url_preprint"}
+      - { label: "Url dataset", name: "url_dataset"}
+      - { label: "Url project", name: "url_project"}
+      - { label: "Url slides", name: "url_slides"}
+      - { label: "Url video", name: "url_video"}
+      - { label: "Url poster", name: "url_poster"}
+      - { label: "Url source", name: "url_source"}
+      - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: true }
+      - { label: "USE Source code highlighting?", name: "math", widget: "boolean", default: true } 
       - { label: "Body", name: "body", widget: "markdown", required: false }
       
