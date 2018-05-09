@@ -9,6 +9,7 @@ event: The great talk
 event url: 'https://github.com/elloza/academic-kickstart-netlify-2/tree/master/static'
 location: Salamanca
 selected: false
+projects: []
 math: true
 url_pdf: 'https://github.com/elloza/academic-kickstart-netlify-2/tree/master/static'
 url_slides: 'https://github.com/elloza/academic-kickstart-netlify-2/tree/master/static'
