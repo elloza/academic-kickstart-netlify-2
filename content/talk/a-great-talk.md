@@ -7,7 +7,7 @@ abstract: A great talk
 abstract_short: A great talk
 event: The great talk
 event url: 'https://github.com/elloza/academic-kickstart-netlify-2/tree/master/static'
-location: 'Salamanca, Spain'
+location: Salamanca
 selected: false
 math: true
 url_pdf: 'https://github.com/elloza/academic-kickstart-netlify-2/tree/master/static'
