@@ -5,7 +5,7 @@ weight: '5'
 interests:
   interests:
     - Artificial Intelligence
-    - ''
+    - coui
 education:
   - courses:
       - course: eeee
