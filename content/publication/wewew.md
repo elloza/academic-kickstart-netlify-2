@@ -1,20 +1,19 @@
 ---
-title: wewew
+title: The best publication of the world
 date: '2018-05-09T16:39:14+02:00'
 authors:
-  - dwedew
+  - El loza
 publication_types:
-  - '0'
-  - '1'
+  - '2'
 header:
   caption: caption
   image: /img/bubbles-wide.jpg
-publication: s
-publication_short: s
-abstract: s
-abstract_short: s
-image_preview: /img/portrait.jpg
-selected: false
+publication: The very best
+publication_short: The best
+abstract: This is de abstract
+abstract_short: The abstract short
+image_preview: /img/sample-815141_640.jpg
+selected: true
 url_pdf: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_preprint: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_dataset: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
@@ -25,4 +24,6 @@ url_poster: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_source: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 math: true
 ---
-asassdfasdasd
+$\alpha + 12 = ostias$
+
+\* Markdown
