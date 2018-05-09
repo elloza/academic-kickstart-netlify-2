@@ -11,4 +11,20 @@ header:
   caption: Unas burbujitas
   image: /img/bubbles.jpg
 ---
-nklklklklkljkljkljkljkljkljkljkljklj
+# Headin
+
+
+
+Ostias
+
+
+
+> Ole tu
+
+
+
+```
+Vamos fideos
+```
+
+![Esto es un señor](/img/portrait.jpg)
