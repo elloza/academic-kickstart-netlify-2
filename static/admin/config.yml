@@ -45,6 +45,7 @@ collections:
              { label: "Book chapter", value: "6" }]} # This might not work
       - {label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
+              {label: "Caption", name: "caption", widget: string}]}
       - { label: "Publication Name", name: "publication" }
       - { label: "Publication Name short", name: "publication_short" }
       - { label: "Abstract", name: "abstract" }
