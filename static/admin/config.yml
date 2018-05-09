@@ -123,7 +123,6 @@ collections:
       - { label: "Event URL", name: "event url",widget: string}
       - { label: "Location (City, Country)", name: "location",widget: string}
       - { label: "Selected talk?", name: "selected", widget: "boolean", default: false }
-      - { label: "Projects (Simply enter the filename (excluding '.md') of your project file in `content/project/`)", name: "projects", widget: "list", default: [] ,required: false}
       - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: false }
       - { label: "PDF URL", name: "url_pdf",widget: string}
       - { label: "Slides URL", name: "url_slides",widget: string}
