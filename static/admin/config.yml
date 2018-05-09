@@ -35,14 +35,8 @@ collections:
       - { label: "Title", name: "title" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Authors", name: "authors", widget: "list"}
-      - { label: "Publication type" ,name: "publication_types", widget: "select", options: [
-             { label: "Uncategorized", value: "0" },
-             { label: "Conference proceedings", value: "1" },
-             { label: "Journal", value: "2" },
-             { label: "Work in progress", value: "3" },
-             { label: "Technical report", value: "4" },
-             { label: "Book", value: "5" },
-             { label: "Book chapter", value: "6" }]} # This might not work
+      - { label: "Publication type, (Uncategorized:0,Conference:1,Journal:2,WIP:3,TechReport:4,Book:5,BookChpt:6)" 
+             ,name: "publication_types", widget: "list", default: ['0', '1']}
       - {label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
               {label: "Caption", name: "caption", widget: string}]}
