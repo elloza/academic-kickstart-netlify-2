@@ -7,9 +7,9 @@ interests:
     - Artificial Intelligence
     - coui
 education:
-  - courses:
-      - course: eeee
-        institution: eeee
-        year: '122'
+  courses:
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
 ---
 wfewfewef
