@@ -7,7 +7,7 @@ interests:
   interests:
     - Machine Learning
     - Comuter Science
-    - aaaaa
+    - Ostias
 education:
   courses:
     - course: ML for dummies
@@ -16,5 +16,8 @@ education:
     - course: Statistics
       institution: University of Salamanca
       year: 2019
+    - course: eeeed
+      institution: eeee
+      year: '2022'
 ---
 Hello, I'm Alvaro
