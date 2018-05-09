@@ -5,11 +5,11 @@ lastmod: '2018-05-09T11:56:35+02:00'
 draft: false
 summary: eeeee
 description: eee
-image: /uploads/sample-815141_640.jpg
+image: /img/boards.jpg
 tags:
   - academic
 header:
   caption: sddsddds
-  image: /uploads/sample-815141_640.jpg
+  image: /img/boards.jpg
 ---
 eeee
