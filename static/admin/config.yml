@@ -53,8 +53,8 @@ collections:
           - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
           - {label: "Weight", name: weight,  default: 40}
           - {label: "Number of post to show", name: count,  default: 5}
-          - {label: "Tags include", name: "tags_include", widget: "list", default: [], required: false}
-          - {label: "Tags exclude", name: "tags_exclude", widget: "list", default: [], required: false}
+          - {label: "Tags include", name: "tags_include", widget: "string", required: false}
+          - {label: "Tags exclude", name: "tags_exclude", widget: "string", required: false}
           - {label: "List Format", name: "list_format", widget: "select", options: ["0", "1"] }
 
       - file: "content/home/projects.md"
