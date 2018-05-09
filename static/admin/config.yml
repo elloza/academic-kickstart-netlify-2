@@ -23,8 +23,6 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
-      - label: "header"
-        widget: "object"
-        fields:
-          - { label: "Featured Image", name: "image", widget: "image", required: false }
-          - { label: "Caption", name: "caption" }
+      - {label: "Header", name: header, widget: object, fields: [
+              {label: "Featured Image", name: "image", widget: "image", required: false},
+              {label: "Caption", name: "caption", widget: string}}
