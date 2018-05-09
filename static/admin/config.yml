@@ -17,7 +17,9 @@ collections:
         name: "about"
         fields:
           - {label: Widget, name: widget, widget: string, default: "about"}
-          - {label: Widget, name: widget,  default: 5}
+          - {label: "Active", name: "active", widget: "boolean", default: true }
+          - {label: "Date", name: "date", widget: "datetime" }
+          - {label: Widget, name: weight,  default: 5}
           - {label: "Interests", name: interests, widget: object, fields: [
               {label: "Interests list", name: "interests", widget: "list", 
               default: ["Artificial Intelligence"]}]}
