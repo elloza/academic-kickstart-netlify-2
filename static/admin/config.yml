@@ -66,7 +66,6 @@ collections:
     folder: "content/project/"
     create: true
     fields:
-
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title" }
       - { label: "Summary", name: "summary"}
@@ -74,6 +73,36 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["academic"] }
       - { label: "External link, Optional external URL for project (replaces project detail page)", name: "external_link", required: false}
       - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: false }
+      - { label: "Header", name: header, widget: object, fields: [
+              {label: "Featured Image", name: "image", widget: "image", required: false},
+              {label: "Caption", name: "caption", widget: string}]}
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+
+  # TALK
+
+  - name: "talk"
+    label: "Talk"
+    folder: "content/talk/"
+    create: true
+    fields:
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title" }
+      - { label: "Time start", name: "time_start", widget: "datetime" }
+      - { label: "Time end", name: "time_end", widget: "datetime" }
+      - { label: "Abstract", name: "abstract"}
+      - { label: "Abstract short", name: "abstract_short"}
+      - { label: "Event", name: "event"}
+      - { label: "Event URL", name: "event url"}
+      - { label: "Location (City, Country)", name: "location"}
+      - { label: "Selected talk?", name: "selected", widget: "boolean", default: false }
+      - { label: "Projects (Simply enter the filename (excluding '.md') of your project file in `content/project/`)", name: "projects", widget: "list", required: false}
+      - { label: "USE MATH formatting?", name: "math", widget: "boolean", default: false }
+      - { label: "PDF URL", name: "url_pdf"}
+      - { label: "Slides URL", name: "url_slides"}
+      - { label: "Video URL", name: "url_video"}
+      - { label: "Source code URL", name: "url_code"}
+      - { label: "USE Source code highlighting?", name: "math", widget: "boolean", default: true } 
       - { label: "Header", name: header, widget: object, fields: [
               {label: "Featured Image", name: "image", widget: "image", required: false},
               {label: "Caption", name: "caption", widget: string}]}
