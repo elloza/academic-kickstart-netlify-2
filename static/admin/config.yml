@@ -59,7 +59,7 @@ collections:
                 ]}
             ]}
           - {label: "Languages", name: Languages, widget: object, fields: [
-              {label: "English", name: "en", widget: "list", fields: [
+              {label: "English", name: "en", widget: "object", fields: [
                 {label: "Language code", name: "languageCode" , widget: "string"}
                 ]}]}
 
