@@ -10,4 +10,4 @@ header:
   caption: Caaaaption
   image: /img/bubbles-wide.jpg
 ---
-$ ostias = \alpha +12 $ Simple
+$ you= \alpha +12 $ Simple
