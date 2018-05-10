@@ -26,9 +26,9 @@ collections:
           - {label: "Theme", name: "theme", widget: "string", default: "<sup>^</sup>"}
           - {label: "Ignore files", name: "ignoreFiles", widget: "list", default: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] }
           - {label: "Preserve Taxonomy Names", name: "enableEmoji", widget: "boolean", default: true }
-          - {label: "Paginate", name: paginate, default: 10}
-          - {label: "Disqus Short Name", name: "disqusShortname", widget: "string", default: ""}
-          - {label: "Google Analytics", name: "googleAnalytics", widget: "string", default: ""}
+          - {label: "Paginate", name: paginate, default: 10, required: false}
+          - {label: "Disqus Short Name", name: "disqusShortname", widget: "string", default: "", required: false}
+          - {label: "Google Analytics", name: "googleAnalytics", widget: "string", default: "", required: false}
           - {label: "Default Content Language", name: "defaultContentLanguage", widget: "string", default: "en"}
           - {label: "Set true for Chinese/Japanese/Korean languages", name: "hasCJKLanguage", widget: "boolean", default: false }
           - {label: "Default Content Language in subdirectory", name: "defaultContentLanguageInSubdir", widget: "boolean", default: false }
@@ -50,6 +50,20 @@ collections:
               {label: "Social", name: "social", widget: "list", fields: [{label: "icon", name: "icon" , widget: "string", default: ""},{label: "social", name: "icon_pack" , widget: "string", default: ""},{label: "link", name: "link" , widget: "string", default: ""}]},
               {label: "Menus", name: "menus", widget: "object", fields: [{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
               ]}
+
+          - {label: "Menu", name: menu, widget: object, fields: [
+              {label: "Social", name: "social", widget: "list", fields:[
+                {label: "Name of the menu", name: "name" , widget: "string", default: ""},
+                {label: "URL wirh # followed by filename of the desired widget", name: "url" , widget: "string", default: ""},
+                {label: "Weight, from 1 up to X", name: "weight" , default: ""}
+                ]}
+            ]}
+          - {label: "Languages", name: Languages, widget: object, fields: [
+              {label: "English", name: "en", widget: "list", fields:[
+                {label: "Language code", name: "languageCode" , widget: "string", default: ""}
+                ]}
+            ]}
+
 
   # PAGE SECTIONS
 
