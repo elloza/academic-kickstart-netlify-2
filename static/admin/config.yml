@@ -50,16 +50,8 @@ collections:
               {label: "Social", name: "social", widget: "list", fields: [{label: "icon", name: "icon" , widget: "string", default: ""},{label: "social", name: "icon_pack" , widget: "string", default: ""},{label: "link", name: "link" , widget: "string", default: ""}]},
               {label: "Menus", name: "menus", widget: "object", fields: [{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
               ]}
-
-          - {label: "Menu", name: menu, widget: object, fields: [
-              {label: "Social", name: "social", widget: "list", fields:[
-                {label: "Name of the menu", name: "name" , widget: "string", default: ""},
-                {label: "URL wirh # followed by filename of the desired widget", name: "url" , widget: "string", default: ""},
-                {label: "Weight, from 1 up to X", name: "weight" , default: ""}
-                ]}
-            ]}
           - {label: "Languages", name: Languages, widget: object, fields: [
-              {label: "English", name: "en", widget: "list", fields:[
+              {label: "English", name: "en", widget: "list", fields: [
                 {label: "Language code", name: "languageCode" , widget: "string", default: ""}
                 ]}
             ]}
