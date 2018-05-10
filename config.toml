@@ -25,13 +25,13 @@ smartypants = true
 [params]
 address = "Building 1 Room 1, Stanford University, California, 90210, USA"
 avatar = "portrait.jpg"
-color_theme = "ocean"
+color_theme = "coffee"
 comment_count = true
 custom_css = []
 custom_js = []
 date_format = "Jan 2, 2006"
 email = "test@example.org"
-font = "classic"
+font = "playfair"
 gravatar = false
 highlight = true
 highlight_languages = []
