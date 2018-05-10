@@ -68,8 +68,8 @@ collections:
               {label: "Latitude", name: "latitude", widget: "string", default: "", required: false},
               {label: "Longitude", name: "longitude", widget: "string", default: "", required: false},
               {label: "Zoom", name: "zoom", widget: "string", default: "15", required: false},
-              {label: "Date Format Examples: Mon, Jan 2, 2006 or 2006-01-02", name: "date_format", widget: "string", default: "3:04 PM", required: false}
-              {label: "Time Format Examples: 3:04 pm or 15:04", name: "time_format", widget: "string", default: "3:04 PM", required: false}
+              {label: "Date Format Examples: Mon, Jan 2, 2006 or 2006-01-02", name: "date_format", widget: "string", default: "3:04 PM", required: false},
+              {label: "Time Format Examples: 3:04 pm or 15:04", name: "time_format", widget: "string", default: "3:04 PM", required: false},
               {label: "Reading time", name: "reading_time", widget: "boolean", default: true},
               {label: "Comment count", name: "comment_count", widget: "boolean", default: true},
               {label: "Section pager", name: "section_pager", widget: "boolean", default: false},
