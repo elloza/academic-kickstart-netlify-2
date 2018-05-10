@@ -1,8 +1,9 @@
 baseurl = "/"
 title = "Academic Theme Netlify CMS"
-copyright = "&copy; 2018"
+copyright = "Elloza 😊 &copy; 2018"
 theme = "academic"
 enableEmoji = true
+footnotereturnlinkcontents = "hey"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 paginate = 10.0
 disqusShortname = ""
@@ -24,13 +25,13 @@ smartypants = true
 [params]
 address = "Building 1 Room 1, Stanford University, California, 90210, USA"
 avatar = "portrait.jpg"
-color_theme = "default"
+color_theme = "ocean"
 comment_count = true
 custom_css = []
 custom_js = []
 date_format = "Jan 2, 2006"
 email = "test@example.org"
-font = "default"
+font = "classic"
 gravatar = false
 highlight = true
 highlight_languages = []
@@ -41,14 +42,14 @@ longitude = "-122.1697"
 map = "1"
 map_api_key = ""
 math = false
-name = "Lena Smith"
+name = "Álvaro Lozano"
 office_hours = "Monday 10:00 to 13:00 or email for appointment"
 phone = "888 888 88 88"
 privacy_pack = false
 publication_types = ["Uncategorized", "Conference paper", "Journal article", "Manuscript", "Report", "Book", "Book section"]
 reading_time = true
-role = "Professor of Artificial Intelligence"
-section_pager = false
+role = "Android Developer and PhD Student"
+section_pager = true
 sharing = true
 skype = "echo123"
 telegram = ""
@@ -59,8 +60,8 @@ zoom = 15.0
 align_right = true
 
 [[params.organizations]]
-name = "Stanford University"
-url = ""
+name = "University of Salamanca"
+url = "www.usal.es"
 
 [params.projects]
 list_children = true
