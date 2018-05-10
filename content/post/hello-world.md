@@ -1,5 +1,5 @@
 ---
-title: Hello world
+title: Hello world 2
 date: '2018-05-09T01:05:00+02:00'
 lastmod: '2018-05-09T01:05:00+02:00'
 draft: false
