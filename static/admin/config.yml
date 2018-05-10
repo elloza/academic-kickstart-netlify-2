@@ -50,11 +50,10 @@ collections:
               {label: "Social", name: "social", widget: "list", fields: [{label: "icon", name: "icon" , widget: "string", default: ""},{label: "social", name: "icon_pack" , widget: "string", default: ""},{label: "link", name: "link" , widget: "string", default: ""}]},
               {label: "Menus", name: "menus", widget: "object", fields: [{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
               ]}
-          - {label: "Languages", name: Languages, widget: object, fields: [
-              {label: "English", name: "en", widget: "list", fields: [
+          - {label: "Languages", name: Languages, widget: list, fields: [
+              {label: "English", name: "en", widget: "object", fields: [
                 {label: "Language code", name: "languageCode" , widget: "string", default: ""}
-                ]}
-            ]}
+                ]}]}
 
 
   # PAGE SECTIONS
