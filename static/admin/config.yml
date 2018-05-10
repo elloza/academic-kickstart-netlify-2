@@ -39,20 +39,17 @@ collections:
               {label: "Section", name: "section", widget: "list", 
               default: [ "HTML", "RSS" ]}
               ]}
-
           - {label: "Configure BlackFriday Markdown rendering", name: blackfriday, widget: object, fields: [
               {label: "opens external links in a new tab", name: "hrefTargetBlank", widget: "boolean", default: true },
               {label: "enable smart fractions (e.g. 5/12 formatted as a fraction).", name: "fractions", widget: "boolean", default: false },
               {label: "enable smart punctuation substitutions (e.g. smart quotes,dashes, fractions).", name: "smartypants", widget: "boolean", default: false }
               ]}
-
           - {label: "Params", name: params, widget: object, fields: [
               {label: "Color theme", name: "color_theme", widget: "select", options: ["default", "ocean", "forest", "coffee", "dark", or "1950s"]},
               {label: "Font", name: "font", widget: "select", options: ["default", "classic", "playfair"]},
               {label: "Name", name: "name", widget: "string", default: "Alvaro Lozano", required: false},
               {label: "Role", name: "role", widget: "string", default: "Android Developer & PhD Student", required: false},
-              {label: "courses", name: "organizations", widget: "list", fields: [
-                {label: Name, name: name , widget: string},{label: URL, name: url, widget: string}]},
+              {label: "courses", name: "organizations", widget: "list", fields: [{label: Name, name: name , widget: string},{label: URL, name: url, widget: string}]},
               {label: "Gravatar", name: "gravatar", widget: "boolean", default: true },
               {label: "Avatar", name: "avatar", widget: "string", default: "portrait.jpg", required: false},
               {label: "Email", name: "email", widget: "string", default: "loza@usal.es", required: false},
@@ -84,12 +81,8 @@ collections:
               {label: "Publication types", name: "publication_types", widget: "list", default: ['Uncategorized', 'Conference paper',  'Journal article',  'Manuscript',  'Report',  'Book',  'Book section'], required: false},
               {label: "Talks", name: "talks", widget: "object", fields:[{label: "Show talk time", name: "time" , widget: "boolean", default: true}]},
               {label: "Projects", name: "projects", widget: "object", fields:[{label: "List publications and talks related to project", name: "list_children" , widget: "boolean", default: true},{label: "Publication list format 0 = Simple 1 = Detailed 2 = APA 3 = MLA", name: publication_format , default: 3}]},
-              {label: "Social", name: "social", widget: "list", fields:[
-                {label: "icon", name: "icon" , widget: "string", default: ""},
-                {label: "social", name: "icon_pack" , widget: "string", default: ""},
-                {label: "link", name: "link" , widget: "string", default: ""},
-                ]},
-              {label: "Menus", name: "menus", widget: "object", fields:[{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
+              {label: "Social", name: "social", widget: "list", fields: [{label: "icon", name: "icon" , widget: "string", default: ""},{label: "social", name: "icon_pack" , widget: "string", default: ""},{label: "link", name: "link" , widget: "string", default: ""}]},
+              {label: "Menus", name: "menus", widget: "object", fields: [{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
               ]}
           - {label: "Menu", name: menu, widget: object, fields: [
               {label: "Social", name: "social", widget: "list", fields:[
