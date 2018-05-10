@@ -68,7 +68,41 @@ collections:
               {label: "Latitude", name: "latitude", widget: "string", default: "", required: false},
               {label: "Longitude", name: "longitude", widget: "string", default: "", required: false},
               {label: "Zoom", name: "zoom", widget: "string", default: "15", required: false}
-              ]}  
+              {label: "Date Format Examples: Mon, Jan 2, 2006 or 2006-01-02", name: "date_format", widget: "string", default: "3:04 PM", required: false}
+              {label: "Time Format Examples: 3:04 pm or 15:04", name: "time_format", widget: "string", default: "3:04 PM", required: false}
+              {label: "Reading time", name: "reading_time", widget: "boolean", default: true},
+              {label: "Comment count", name: "comment_count", widget: "boolean", default: true},
+              {label: "Section pager", name: "section_pager", widget: "boolean", default: false},
+              {label: "Math Latex rendering", name: "math", widget: "boolean", default: false},
+              {label: "Highlight Sintaxis", name: "highlight", widget: "boolean", default: false},
+              {label: "Highlight languages", name: "highlight_languages", widget: "list", default: [], required: false},
+              {label: "Enable Social sharing buttons", name: "sharing", widget: "boolean", default: true},
+              {label: "Privacy pack", name: "privacy_pack", widget: "boolean", default: false},
+              {label: "Custom CSS /static/css", name: "custom_css", widget: "list", default: [], required: false},
+              {label: "Custom JS /static/js", name: "custom_js", widget: "list", default: [], required: false},
+              {label: "Custom JS /static/js", name: "custom_js", widget: "list", default: [], required: false},
+              {label: "Publication types", name: "publication_types", widget: "list", default: ['Uncategorized', 'Conference paper',  'Journal article',  'Manuscript',  'Report',  'Book',  'Book section'], required: false},
+              {label: "Talks", name: "talks", widget: "object", fields:[{label: "Show talk time", name: "time" , widget: "boolean", default: true}]},
+              {label: "Projects", name: "projects", widget: "object", fields:[{label: "List publications and talks related to project", name: "list_children" , widget: "boolean", default: true},{label: "Publication list format 0 = Simple 1 = Detailed 2 = APA 3 = MLA", name: publication_format , default: 3}]},
+              {label: "Social", name: "social", widget: "list", fields:[
+                {label: "icon", name: "icon" , widget: "string", default: ""},
+                {label: "social", name: "icon_pack" , widget: "string", default: ""},
+                {label: "link", name: "link" , widget: "string", default: ""}
+                ]},
+              {label: "Menus", name: "menus", widget: "object", fields:[{label: "Align the main menu to the right of the page?", name: "align_right" , widget: "boolean", default: true}]}
+              ]}
+          - {label: "Menu", name: menu, widget: object, fields: [
+              {label: "Social", name: "social", widget: "list", fields:[
+                {label: "Name of the menu", name: "name" , widget: "string", default: ""},
+                {label: "URL wirh # followed by filename of the desired widget", name: "url" , widget: "string", default: ""},
+                {label: "Weight, from 1 up to X", name: "weight" , default: ""}
+                ]}
+            ]}
+          - {label: "Languages", name: Languages, widget: object, fields: [
+              {label: "English", name: "en", widget: "list", fields:[
+                {label: "Language code", name: "languageCode" , widget: "string", default: ""}
+                ]}
+            ]}
 
   # PAGE SECTIONS
 
