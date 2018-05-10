@@ -13,7 +13,7 @@ collections:
   - name: "global_conf"
     label: "Global Site configuration"
     files:
-      - file: "config2.toml"
+      - file: "config.toml"
         label: "Global configuration"
         name: "global_config"
         fields:
