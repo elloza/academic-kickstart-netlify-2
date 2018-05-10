@@ -58,8 +58,8 @@ collections:
                 {label: "Weight, from 1 up to X", name: "weight" , default: ""}
                 ]}
             ]}
-          - {label: "Languages", name: Languages, widget: list, fields: [
-              {label: "English", name: "en", widget: "object", fields: [
+          - {label: "Languages", name: Languages, widget: object, fields: [
+              {label: "English", name: "en", widget: "list", fields: [
                 {label: "Language code", name: "languageCode" , widget: "string"}
                 ]}]}
 
