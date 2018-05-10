@@ -13,12 +13,12 @@ header:
 ---
 # Heading
 
-Ostias
+This is content
 
-> Ole tu
+> This is a quote
 
 ```
-Vamos fideos
+This is code
 ```
 
-![Esto es un señor](/img/portrait.jpg)
+![An image](/img/portrait.jpg)

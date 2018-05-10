@@ -24,7 +24,7 @@ url_poster: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 url_source: 'http://jultika.oulu.fi/files/isbn9789514293801.pdf'
 math: true
 ---
-$\alpha + 12 = ostias$
+$\alpha + 12 = you$
 
 ```python
 # Example of code highlighting
