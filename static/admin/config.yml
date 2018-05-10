@@ -58,6 +58,13 @@ collections:
                 {label: "Weight, from 1 up to X", name: "weight" , default: ""}
                 ]}
             ]}
+
+          - {label: "Taxonomies", name: taxonomies, widget: object, fields: [
+                {label: "Tag", name: "tag" , widget: "string", default: "tag"},
+                {label: "Category", name: "category" , widget: "string", default: "categories"},
+                {label: "Publication Type", name: "publication_type" , widget: "string", default: "publication_types"}
+            ]}
+            
           - {label: "Languages", name: Languages, widget: object, fields: [
               {label: "English", name: "en", widget: "object", fields: [
                 {label: "Language code", name: "languageCode" , widget: "string"}
