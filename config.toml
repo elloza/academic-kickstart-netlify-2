@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "Academic"
+title = "Academic Netlify CMS"
 copyright = "&copy; 2018"
 theme = "academic"
 enableEmoji = true
