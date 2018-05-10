@@ -23,9 +23,9 @@ collections:
           - {label: "Theme", name: "theme", widget: "string", default: "academic"}
           - {label: "Enable Emojis", name: "enableEmoji", widget: "boolean", default: true }
           - {label: "Theme", name: "theme", widget: "string", default: "<sup>^</sup>"}
-          - {label: "Ignore files", name: "tags", widget: "ignoreFiles", default: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] }
+          - {label: "Ignore files", name: "ignoreFiles", widget: "list", default: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"] }
           - {label: "Preserve Taxonomy Names", name: "enableEmoji", widget: "boolean", default: true }
-          - {label: "Paginate", name: paginate, widget: numeric, default: 10}
+          - {label: "Paginate", name: paginate, default: 10}
           - {label: "Disqus Short Name", name: "disqusShortname", widget: "string", default: ""}
           - {label: "Google Analytics", name: "googleAnalytics", widget: "string", default: ""}
           - {label: "Default Content Language", name: "defaultContentLanguage", widget: "string", default: "en"}
@@ -63,20 +63,13 @@ collections:
               {label: "Telegram", name: "telegram", widget: "string", default: "@ostias", required: false},
               {label: "Keybase username", name: "kebase", widget: "string", default: "@ostias", required: false},
               {label: "Logo", name: "logo", widget: "string", default: "", required: false},
-              {label: "Map provider: 0: No map 1: Google Maps 2: OpenStreetMap (Mapnik) 3: OpenStreetMap (Mapbox)", name: "map", widget: "numeric", default: 0, required: false},
+              {label: "Map provider: 0: No map 1: Google Maps 2: OpenStreetMap (Mapnik) 3: OpenStreetMap (Mapbox)", name: "map", default: 0, required: false},
               {label: "Logo", name: "logo", widget: "string", default: "", required: false},
               {label: "MAP API KEY", name: "map_api_key", widget: "string", default: "", required: false},
               {label: "Latitude", name: "latitude", widget: "string", default: "", required: false},
               {label: "Longitude", name: "longitude", widget: "string", default: "", required: false},
               {label: "Zoom", name: "zoom", widget: "string", default: "15", required: false}
               ]}  
-
-          - {label: "Active", name: "active", widget: "boolean", default: true }
-          - {label: "Date", name: "date", widget: "datetime" }
-          
-          - {label: "Subtitle", name: "subtitle", widget: "string", default: ""}
-          - {label: "Weight", name: weight,  default: 30}
-          - {label: "Body", name: "body", widget: "markdown", required: false }
 
   # PAGE SECTIONS
 
