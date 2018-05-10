@@ -14,6 +14,7 @@ collections:
     label: "Global Site configuration"
     files:
       - file: "config.toml"
+        create: true
         label: "Global configuration"
         name: "global_config"
         fields:
